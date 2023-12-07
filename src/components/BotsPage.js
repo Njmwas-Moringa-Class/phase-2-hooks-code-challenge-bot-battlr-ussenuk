@@ -51,6 +51,8 @@ function BotsPage() {
 
   }
 
+  // make a DELETE http://localhost:8002/bots/id
+
   function dischargeBot(bot) {
     const botApi = `http://localhost:8002/bots/${bot}`
     fetch(botApi, {
